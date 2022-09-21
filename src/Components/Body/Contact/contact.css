@@ -1,0 +1,137 @@
+.contact{
+    padding-bottom: 15px;
+    background-color:white;
+
+    
+
+}
+.let-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info{
+    font: normal normal medium 40px/44px Inter;
+    letter-spacing: 0px;
+    font-size: 24px;
+    opacity: 1;
+    width: 50%;
+
+}
+.contact-form{
+    font: normal normal medium 40px/44px Inter;
+    letter-spacing: 0px;
+    font-size: 15px;
+    opacity: 1;
+    width: 50%;
+    background-color: #FBF3E4;
+    padding-left: 33px;
+    padding-bottom: 33px;
+
+}
+
+.form-good{
+    text-align: left;
+    font: normal normal normal 20px/16px Inter;
+    letter-spacing: 0px;
+    opacity: 1;
+
+}
+.input-gol{
+height: 30px;
+width: 80%;
+
+ 
+}
+.but-c{
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+    color: orange;
+    background-color: rgb(226, 238, 121);
+    border: 1px solid rgb(226, 238, 121);
+
+}
+.heading-send{
+
+color: #105652;  
+}
+.contant-me{
+    color:#105652 ;
+    font-size: 34px;
+    font-family:'Times New Roman', Times, serif;
+
+}
+.start{
+    color: red;
+}
+
+.picture2{
+    height: 40px;
+    width: 40px;
+}
+.picture3{
+    height: 34px;
+    width: 34px;
+
+}
+.contact-space{
+  display: flex;
+ justify-content: space-around;   
+}
+.contact-space2{
+    display: flex;
+   justify-content: space-around;
+   padding-right: 290px;   
+  }
+  .head-contact{
+   padding-left: 22px;
+
+  }
+
+
+
+@media only screen and (max-width:720px){
+    .let-contact{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .picture2{
+        height: 20px;
+        width: 20px;
+    }
+    .contact-info{
+        font-size: 20px;
+    }
+    .but-c{
+        height: 20px;
+        width: 90px;
+        font-size: 15px;
+        color: orange;
+        background-color: rgb(226, 238, 121);
+        border: 1px solid rgb(226, 238, 121);
+    
+    }
+    .contact-form{
+        font-size: 20px;
+    }
+    .contact-space{
+        display: flex;
+        flex-direction: column;
+       justify-content: space-evenly;  
+       justify-content: center;
+       align-items: center;
+       font-size: 14px;
+      }
+      .contact-space2{
+        display: flex;
+        flex-direction: column;
+       justify-content: space-evenly;  
+       justify-content: center;
+       align-items: center;
+        }
+}

@@ -1,0 +1,124 @@
+.resume{
+    padding-bottom: 28px;
+    background-color: #105652;
+    
+
+}
+.resume-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.picture{
+    height: 250px;
+}
+.about-info{
+    font: normal normal medium 40px/44px Inter;
+    letter-spacing: 0px;
+    color: #FCA738;
+    font-size: 34px;
+    opacity: 1;
+
+}
+.end-front{
+    font: normal normal medium 40px/44px Inter;
+    letter-spacing: 0px;
+ color: #FBF3E4;
+    font-size: 34px;
+    opacity: 1;
+
+}
+.info-name{
+    color: aqua;
+    font-size: 32px;
+}
+.v-resume{
+    display: flex;
+    align-items: flex-end;
+    padding-left: 30px;
+
+    
+}
+.work-resume{
+    color: #FBF3E4;
+    font-size: 36px;
+    font-family:'Times New Roman', Times, serif;
+}
+.line2{
+    border: 2px solid yellow;
+    width: 135px;
+}
+.year1{
+    margin-left: 175px;
+    font-size: 24px;
+    color: chocolate;
+
+}
+.year{
+    margin-left: 356px;
+    font-size: 24px;
+    color: chocolate;
+}
+.uni1{
+    color: rgb(220, 183, 20);
+}
+.mcs{
+    color: rgb(218, 241, 114);
+}
+.vn-resume{
+display: flex;
+flex-direction: column;
+
+}
+.text-data{
+    font-size: 24px;
+}
+
+@media only screen and (max-width:720px){
+    .resume-top{
+        flex-direction: column;
+    
+        justify-content: center;
+        align-items: center;
+    }
+    .picture{
+        height: 320px;
+    }
+    .year1{
+        margin-left: 90px;
+    
+    }
+    .year{
+        margin-left: 90px;
+    
+    }
+    .vn-resume{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap:wrap ;
+     
+
+        
+        }
+        .v-resume{
+            display: flex;
+            align-items: flex-end; 
+        justify-content: center;
+        align-items: center;
+        
+        
+            
+        }
+
+    .picture{
+        height: 280px;
+        width: 250px;
+    }
+    .about-info{
+        font-size: 20px;
+    }
+    .info-name{
+        font-size: 26px;
+    }
+}
