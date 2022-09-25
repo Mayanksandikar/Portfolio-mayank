@@ -12,7 +12,7 @@ const Web = () => {
         <a href="#skill">Skill</a>
       </div>
       <div className="web-option">
-        <a href="#Aboutme">Aboutme</a>
+        <a href="#aboutme">Aboutme</a>
       </div>
       <div className="web-option">
         <a href="#contact">Contact </a>

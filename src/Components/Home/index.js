@@ -1,6 +1,6 @@
 import React from 'react'
 import Body from '../Body'
-import Footer from '../Footer'
+// import Footer from '../Footer'
 import Header from '../Header'
 
 const Home = () => {
@@ -12,9 +12,9 @@ const Home = () => {
             <div>
                 < Body />
             </div>
-            <div>
+            {/* <div>
                 <Footer />
-            </div>
+            </div> */}
             
         </div>
     )

@@ -9,7 +9,7 @@ function Mobile ({ isOpen,setIsOpen }) {
             </div>
             <div className="mobile-options">
             <div className="mobile-option">
-        <a href="#Aboutme">
+        <a href="#aboutme">
         Aboutme
         </a>
       </div>
@@ -20,7 +20,7 @@ function Mobile ({ isOpen,setIsOpen }) {
         <a href="#project">project</a>
       </div>
       <div className="mobile-option">
-        <a href="contact">Contact </a>
+        <a href="#contact">Contact </a>
       </div>
 
             </div>
